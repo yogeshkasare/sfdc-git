@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Gives Service Cloud agents access to Messaging functionality and message session records for Bring Your Own Channel for Messaging and Bring Your Own Channel for CCaaS.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Contact Center Bring Your Own Channel User</label>
+    <license>PartnerMessagingUser</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>UsePartnerMessagingChannels</name>
+    </userPermissions>
+</PermissionSet>
