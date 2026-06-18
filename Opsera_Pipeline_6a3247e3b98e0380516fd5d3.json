@@ -1,0 +1,817 @@
+{
+  "_id": "6a3247e3b98e0380516fd5d3",
+  "name": "Blank Pipeline Template 78",
+  "description": "yesa",
+  "owner": "68c10683f83c8f3eb99e9c8f",
+  "roles": [
+    {
+      "role": "administrator",
+      "user": "yogesh.kasare@proton.me",
+      "site_role": "",
+      "group": ""
+    },
+    {
+      "role": "administrator",
+      "user": "dammu.srinivasulu05@protonmail.com",
+      "site_role": "",
+      "group": ""
+    },
+    {
+      "role": "administrator",
+      "user": "chandru.nallasivam@opsera.io",
+      "site_role": "",
+      "group": ""
+    },
+    {
+      "role": "guest",
+      "user": "vasu811@protonmail.com",
+      "site_role": "",
+      "group": ""
+    }
+  ],
+  "tags": [
+    {
+      "type": "tool",
+      "value": "pipeline-vr"
+    },
+    {
+      "type": "pipeline",
+      "value": "31may"
+    }
+  ],
+  "type": [
+    "sfdc"
+  ],
+  "organizationName": "opsera protonmail test account",
+  "account": "org109-acc",
+  "project": {
+    "name": "",
+    "project_id": ""
+  },
+  "workflow": {
+    "source": {
+      "name": "",
+      "service": "github",
+      "accountId": "682f039eee8c55ffd81561bc",
+      "workspace": "",
+      "workspaceName": "",
+      "repository": "sfdc-git",
+      "repoId": "yogeshkasare/sfdc-git",
+      "projectId": "yogeshkasare/sfdc-git",
+      "gitUrl": "https://github.com/yogeshkasare/sfdc-git",
+      "sshUrl": "git@github.com:yogeshkasare/sfdc-git.git",
+      "branch": "6a1e9a3b4ad939a4278a53e8_1",
+      "secondary_branches": [],
+      "key": "",
+      "trigger_active": true,
+      "isPushEvent": false,
+      "isPrEvent": false,
+      "isMonitored": false,
+      "sendStepUpdates": false,
+      "prCreatedEvent": true,
+      "prApprovedEvent": false,
+      "gitExportEnabled": true,
+      "gitExportPath": "",
+      "dynamicSettings": false,
+      "allowDynamicSettingsInUi": false,
+      "allowPipelineParametersInUi": false,
+      "allowDynamicSettingsInSalesforceUi": true,
+      "enableBranchSwitch": false,
+      "opseraEdgeToolId": "",
+      "useOpseraEdgeProxy": false,
+      "baselineFromSuccessfulRun": false,
+      "branch_pattern": [],
+      "autoPopulateToSteps": false
+    },
+    "schedule": {
+      "start_date": null,
+      "end_date": null,
+      "frequency": ""
+    },
+    "last_step": {
+      "status": "reset",
+      "check_count": 0,
+      "step_id": ""
+    },
+    "last_run": {
+      "status": "reset"
+    },
+    "plan": [
+      {
+        "name": "package",
+        "notes": "",
+        "description": "",
+        "tool": {
+          "tool_identifier": "sfdc-configurator",
+          "configuration": {
+            "overrideStartWorkflowValues": false,
+            "jobType": "SFDC CREATE PACKAGE XML",
+            "gitToolId": "",
+            "sfdcToolId": "69412006757346bfffd1b90d",
+            "sfdcDestToolId": "",
+            "service": "bitbucket",
+            "workspace": "",
+            "repository": "",
+            "projectId": "yogeshkasare/sfdc-git",
+            "repoId": "",
+            "gitBranch": "YDS-5",
+            "stepIdXML": "5ec7c8cedc73d971e2860b68",
+            "modifiedFilesOrigin": "git",
+            "sfdcUnitTestType": "",
+            "filesFromSfdc": true,
+            "isOrgToOrg": false,
+            "isNewBranch": false,
+            "isManualArtifactBranch": false,
+            "isManualRollBackBranch": false,
+            "isFullBackup": false,
+            "ignoreWarnings": false,
+            "ignoreTestExecution": false,
+            "hasUpstreamBranch": false,
+            "rollbackBranchName": "",
+            "enableQuickDeploy": false,
+            "ruleIds": [],
+            "threshold": 75,
+            "targetType": "ORG",
+            "targetBranch": "",
+            "allowOverwrite": false,
+            "toolConfigId": "",
+            "jenkinsUrl": "",
+            "jenkinsPort": "",
+            "jUserId": "",
+            "jAuthToken": "",
+            "jobName": "",
+            "toolJobId": "",
+            "toolJobType": "",
+            "destAccountUsername": "",
+            "accountUsername": "",
+            "defaultBranch": "YDS-5",
+            "dockerName": "",
+            "useDockerDynamicName": false,
+            "dockerDynamicName": "",
+            "dockerTagName": "",
+            "dockerPath": "",
+            "buildType": "gradle",
+            "sshUrl": "",
+            "gitCredential": "",
+            "gitUserName": "",
+            "branch": "YDS-5",
+            "agentLabels": "",
+            "workspaceDeleteFlag": false,
+            "customParameters": [],
+            "terraformStepId": "",
+            "useTerraformOutput": false,
+            "job_type": "",
+            "xcodeVersion": "",
+            "dynamicTag": false,
+            "dockerTagType": [],
+            "dockerDynamicTagName": "",
+            "specifyCommitIdChar": false,
+            "commitIdCharDirection": "prefix",
+            "commitIdCharLimit": null,
+            "runtimeArguments": "",
+            "dependencyType": "",
+            "useBuildStepResource": false,
+            "buildStepId": "",
+            "commands": "",
+            "environmentVariables": [],
+            "ignoreWarning": false,
+            "filePath": "",
+            "schemeName": "",
+            "projectWorkspace": "",
+            "configurationType": "",
+            "scriptType": "opsera",
+            "developerTeamId": "",
+            "credentailsId": "",
+            "artifactoryId": "",
+            "artifactoryName": "",
+            "azureCredentialId": "",
+            "resource": "https://management.azure.com",
+            "azureRegistryName": "",
+            "dockerPort": "",
+            "repositoryName": "",
+            "type": "",
+            "port": "",
+            "validateAndUploadAppEnabled": false,
+            "iosToolId": "",
+            "provisioningProfilePath": "",
+            "codeSignIdentity": "",
+            "secondaryTagEnabled": false,
+            "secondaryTags": [],
+            "enableOutputVariables": false,
+            "outputPath": "",
+            "outputFileName": "",
+            "customParameterForJobName": false,
+            "pipelineId": "6a3247e3b98e0380516fd5d3",
+            "_id": "5ec7c8cedc73d971e2860b68",
+            "isRollBackRun": false
+          },
+          "threshold": {
+            "type": "",
+            "value": ""
+          }
+        },
+        "trigger": [],
+        "type": [
+          "sfdc-type"
+        ],
+        "orchestration_type": "standard",
+        "notification": [],
+        "tags": [],
+        "active": true,
+        "dependencies": [],
+        "updatedAt": "2020-05-22T12:42:54.717Z",
+        "_id": "5ec7c8cedc73d971e2860b68"
+      },
+      {
+        "name": "validate",
+        "notes": "",
+        "description": "",
+        "tool": {
+          "tool_identifier": "sfdc-configurator",
+          "configuration": {
+            "overrideStartWorkflowValues": false,
+            "jobType": "SFDC VALIDATE PACKAGE XML",
+            "gitToolId": "",
+            "sfdcToolId": "69412006757346bfffd1b90d",
+            "sfdcDestToolId": "",
+            "service": "",
+            "workspace": "",
+            "repository": "",
+            "projectId": "",
+            "repoId": "",
+            "gitBranch": "",
+            "stepIdXML": "5ec7c8cedc73d971e2860b68",
+            "modifiedFilesOrigin": "git",
+            "sfdcUnitTestType": "AutoIncludeTests",
+            "filesFromSfdc": true,
+            "isOrgToOrg": false,
+            "isNewBranch": false,
+            "isManualArtifactBranch": false,
+            "isManualRollBackBranch": false,
+            "isFullBackup": false,
+            "ignoreWarnings": false,
+            "ignoreTestExecution": false,
+            "hasUpstreamBranch": false,
+            "rollbackBranchName": "",
+            "enableQuickDeploy": false,
+            "ruleIds": [],
+            "threshold": 75,
+            "targetType": "ORG",
+            "targetBranch": "",
+            "allowOverwrite": false,
+            "pipelineId": "6a3247e3b98e0380516fd5d3",
+            "_id": "6a3248a929390856d0735332",
+            "isRollBackRun": false
+          },
+          "threshold": {
+            "type": "",
+            "value": ""
+          }
+        },
+        "trigger": [],
+        "type": [
+          "sfdc-type"
+        ],
+        "orchestration_type": "standard",
+        "notification": [],
+        "tags": [],
+        "active": true,
+        "dependencies": [
+          "5ec7c8cedc73d971e2860b68"
+        ],
+        "updatedAt": "2026-06-17T07:11:37.698Z",
+        "_id": "6a3248a929390856d0735332"
+      },
+      {
+        "name": "deploy",
+        "notes": "",
+        "description": "",
+        "tool": {
+          "tool_identifier": "sfdc-configurator",
+          "configuration": {
+            "overrideStartWorkflowValues": false,
+            "jobType": "SFDC DEPLOY",
+            "gitToolId": "",
+            "sfdcToolId": "6a0ecad0cc72ae760ba71719",
+            "sfdcDestToolId": "",
+            "service": "",
+            "workspace": "",
+            "repository": "",
+            "projectId": "",
+            "repoId": "",
+            "gitBranch": "",
+            "stepIdXML": "5ec7c8cedc73d971e2860b68",
+            "modifiedFilesOrigin": "git",
+            "sfdcUnitTestType": "RunSpecifiedTests",
+            "filesFromSfdc": true,
+            "isOrgToOrg": false,
+            "isNewBranch": false,
+            "isManualArtifactBranch": false,
+            "isManualRollBackBranch": false,
+            "isFullBackup": false,
+            "ignoreWarnings": false,
+            "ignoreTestExecution": false,
+            "hasUpstreamBranch": false,
+            "rollbackBranchName": "",
+            "enableQuickDeploy": false,
+            "ruleIds": [],
+            "threshold": 75,
+            "targetType": "ORG",
+            "targetBranch": "",
+            "allowOverwrite": false,
+            "pipelineId": "6a3247e3b98e0380516fd5d3",
+            "_id": "6a3248ce29390856d07354cb",
+            "excludeTestClassesForAutoIncludeTests": false,
+            "requestCorrelationId": "6a324bddeaaf363cb2e8a0b8",
+            "isRollBackRun": false
+          },
+          "threshold": {
+            "type": "",
+            "value": ""
+          }
+        },
+        "trigger": [],
+        "type": [
+          "sfdc-type"
+        ],
+        "orchestration_type": "standard",
+        "notification": [],
+        "tags": [],
+        "active": true,
+        "dependencies": [
+          "6a3248a929390856d0735332",
+          "5ec7c8cedc73d971e2860b68"
+        ],
+        "updatedAt": "2026-06-17T07:12:14.754Z",
+        "_id": "6a3248ce29390856d07354cb"
+      },
+      {
+        "name": "demo-step-1",
+        "description": "",
+        "tool": {
+          "tool_identifier": "command-line"
+        },
+        "trigger": [],
+        "type": [
+          "script"
+        ],
+        "orchestration_type": "standard",
+        "notification": [],
+        "tags": [],
+        "active": true,
+        "dependencies": [
+          "6a3248ce29390856d07354cb"
+        ],
+        "updatedAt": "2026-06-18T02:23:31.916Z",
+        "_id": "6a3356a3b98e03805174d645"
+      },
+      {
+        "name": "demo2",
+        "description": "",
+        "tool": {
+          "tool_identifier": "command-line"
+        },
+        "trigger": [],
+        "type": [
+          "script"
+        ],
+        "orchestration_type": "standard",
+        "notification": [],
+        "tags": [],
+        "active": true,
+        "dependencies": [
+          "6a3248ce29390856d07354cb"
+        ],
+        "updatedAt": "2026-06-18T02:24:39.355Z",
+        "_id": "6a3356e7b98e03805174d69a"
+      },
+      {
+        "name": "Copy of new step",
+        "description": "",
+        "tool": {
+          "tool_identifier": "command-line",
+          "configuration": {
+            "type": "",
+            "jobType": "SHELL SCRIPT",
+            "toolConfigId": "650ca087dbaa4500111e1618",
+            "toolName": "qa_Jenkins Prod DO NOT DELETE",
+            "jobName": "SHELL_SCRIPT_V2_6a3247e3b98e0380516fd5d3_6a3356277341af4f440f2ab1",
+            "toolJobId": "65372daf25e5690050136801",
+            "projectId": "",
+            "buildType": "python",
+            "gitToolId": "",
+            "repoId": "",
+            "gitUrl": "",
+            "sshUrl": "",
+            "service": "",
+            "gitCredential": "",
+            "workspace": "",
+            "workspaceName": "",
+            "repository": "",
+            "gitBranch": "",
+            "agentLabels": "python3-alpine",
+            "autoScaleEnable": true,
+            "outputPath": "",
+            "outputFileName": "",
+            "dependencyType": "",
+            "workspaceDeleteFlag": false,
+            "sourceScript": false,
+            "inputPath": "",
+            "inputFileName": "",
+            "relativePath": "",
+            "commands": "",
+            "terraformStepId": "",
+            "customParameters": [],
+            "outputCustomParameters": [],
+            "stepParameters": [],
+            "useTerraformOutput": false,
+            "sonarScanFlag": false,
+            "saveSonarParameters": false,
+            "sonarCustomParameters": [],
+            "sonarToolConfigId": "",
+            "projectKey": "",
+            "saveEnvironmentVariables": false,
+            "environmentVariables": [],
+            "clientSideThreshold": false,
+            "thresholdCompliance": [],
+            "thresholdRating": [],
+            "reportDetailsFlag": false,
+            "reportPath": "",
+            "reportFileName": "",
+            "scriptType": "package",
+            "scriptId": "",
+            "overrideStartWorkflowValues": false,
+            "commandLineExecutionEngine": "jenkins",
+            "isJenkinsStepEntitlementEnabled": false,
+            "toolJobName": "Python shell",
+            "stepIdXML": "5ec7c8cedc73d971e2860b68",
+            "isRollBackRun": false
+          },
+          "threshold": {
+            "type": "",
+            "value": ""
+          },
+          "job_type": "shell script"
+        },
+        "trigger": [],
+        "type": [
+          "script"
+        ],
+        "notification": [],
+        "tags": [],
+        "active": true,
+        "dependencies": [
+          "5ec7c8cedc73d971e2860b68"
+        ],
+        "updatedAt": "2026-06-18T03:21:28.670Z",
+        "_id": "6a3364385cede973a4745ee5"
+      },
+      {
+        "name": "Copy of package",
+        "description": "",
+        "tool": {
+          "tool_identifier": "sfdc-configurator",
+          "configuration": {
+            "overrideStartWorkflowValues": false,
+            "jobType": "SFDC CREATE PACKAGE XML",
+            "gitToolId": "",
+            "sfdcToolId": "69412006757346bfffd1b90d",
+            "sfdcDestToolId": "",
+            "service": "bitbucket",
+            "workspace": "",
+            "repository": "",
+            "projectId": "yogeshkasare/sfdc-git",
+            "repoId": "",
+            "gitBranch": "YDS-5",
+            "stepIdXML": "5ec7c8cedc73d971e2860b68",
+            "modifiedFilesOrigin": "git",
+            "sfdcUnitTestType": "",
+            "filesFromSfdc": true,
+            "isOrgToOrg": false,
+            "isNewBranch": false,
+            "isManualArtifactBranch": false,
+            "isManualRollBackBranch": false,
+            "isFullBackup": false,
+            "ignoreWarnings": false,
+            "ignoreTestExecution": false,
+            "hasUpstreamBranch": false,
+            "rollbackBranchName": "",
+            "enableQuickDeploy": false,
+            "ruleIds": [],
+            "threshold": 75,
+            "targetType": "ORG",
+            "targetBranch": "",
+            "allowOverwrite": false,
+            "toolConfigId": "",
+            "jenkinsUrl": "",
+            "jenkinsPort": "",
+            "jUserId": "",
+            "jAuthToken": "",
+            "jobName": "",
+            "toolJobId": "",
+            "toolJobType": "",
+            "destAccountUsername": "",
+            "accountUsername": "",
+            "defaultBranch": "YDS-5",
+            "dockerName": "",
+            "useDockerDynamicName": false,
+            "dockerDynamicName": "",
+            "dockerTagName": "",
+            "dockerPath": "",
+            "buildType": "gradle",
+            "sshUrl": "",
+            "gitCredential": "",
+            "gitUserName": "",
+            "branch": "YDS-5",
+            "agentLabels": "",
+            "workspaceDeleteFlag": false,
+            "customParameters": [],
+            "terraformStepId": "",
+            "useTerraformOutput": false,
+            "job_type": "",
+            "xcodeVersion": "",
+            "dynamicTag": false,
+            "dockerTagType": [],
+            "dockerDynamicTagName": "",
+            "specifyCommitIdChar": false,
+            "commitIdCharDirection": "prefix",
+            "commitIdCharLimit": null,
+            "runtimeArguments": "",
+            "dependencyType": "",
+            "useBuildStepResource": false,
+            "buildStepId": "",
+            "commands": "",
+            "environmentVariables": [],
+            "ignoreWarning": false,
+            "filePath": "",
+            "schemeName": "",
+            "projectWorkspace": "",
+            "configurationType": "",
+            "scriptType": "opsera",
+            "developerTeamId": "",
+            "credentailsId": "",
+            "artifactoryId": "",
+            "artifactoryName": "",
+            "azureCredentialId": "",
+            "resource": "https://management.azure.com",
+            "azureRegistryName": "",
+            "dockerPort": "",
+            "repositoryName": "",
+            "type": "",
+            "port": "",
+            "validateAndUploadAppEnabled": false,
+            "iosToolId": "",
+            "provisioningProfilePath": "",
+            "codeSignIdentity": "",
+            "secondaryTagEnabled": false,
+            "secondaryTags": [],
+            "enableOutputVariables": false,
+            "outputPath": "",
+            "outputFileName": "",
+            "customParameterForJobName": false,
+            "pipelineId": "6a3247e3b98e0380516fd5d3",
+            "_id": "5ec7c8cedc73d971e2860b68",
+            "isRollBackRun": false
+          },
+          "threshold": {
+            "type": "",
+            "value": ""
+          }
+        },
+        "trigger": [],
+        "type": [
+          "sfdc-type"
+        ],
+        "notification": [],
+        "active": true,
+        "dependencies": [],
+        "_id": "6a3395d77341af4f44103ab1",
+        "tags": [],
+        "updatedAt": "2026-06-18T06:53:11.784Z"
+      }
+    ],
+    "run_count": 5,
+    "canvas_layout": {
+      "manual_layout_active": true,
+      "orientations": {
+        "vertical": {
+          "start": {
+            "x": 40,
+            "y": -100
+          },
+          "5ec7c8cedc73d971e2860b68": {
+            "x": 0,
+            "y": 270
+          },
+          "6a3395d77341af4f44103ab1": {
+            "x": -272.22222222222223,
+            "y": 372.2222222222222
+          },
+          "6a3248a929390856d0735332": {
+            "x": 0,
+            "y": 540
+          },
+          "6a3248ce29390856d07354cb": {
+            "x": 0,
+            "y": 810
+          },
+          "6a3364385cede973a4745ee5": {
+            "x": 400,
+            "y": 540
+          },
+          "6a3356a3b98e03805174d645": {
+            "x": -200,
+            "y": 1080
+          },
+          "6a3356e7b98e03805174d69a": {
+            "x": 200,
+            "y": 1080
+          },
+          "end": {
+            "x": -50,
+            "y": 300
+          }
+        },
+        "horizontal": {
+          "start": {
+            "x": -500,
+            "y": 240
+          },
+          "5ec7c8cedc73d971e2860b68": {
+            "x": -260,
+            "y": 240
+          },
+          "6a3356277341af4f440f2ab1": {
+            "x": 10,
+            "y": -160
+          },
+          "6a3248a929390856d0735332": {
+            "x": 10,
+            "y": 240
+          },
+          "6a3364385cede973a4745ee5": {
+            "x": 10,
+            "y": 640
+          },
+          "6a3248ce29390856d07354cb": {
+            "x": 280,
+            "y": 240
+          },
+          "6a3356a3b98e03805174d645": {
+            "x": 550,
+            "y": 40
+          },
+          "6a3356e7b98e03805174d69a": {
+            "x": 550,
+            "y": 440
+          },
+          "end": {
+            "x": 820,
+            "y": 240
+          }
+        }
+      },
+      "updated_at": "2026-06-18T06:53:34.365Z"
+    }
+  },
+  "active": true,
+  "template": "5ec7c8cedc73d9532e860b67",
+  "templateIdentifier": "blank_pipeline_template",
+  "notification": [
+    {
+      "type": "email",
+      "addresses": [
+        "demo2@hgmqil.com",
+        "demo3@gmail.com",
+        "demo3@gmails.com"
+      ],
+      "event": "error",
+      "enabled": true,
+      "logEnabled": false,
+      "notifyTriggeredUser": false,
+      "manifestAttachment": {
+        "enabled": false,
+        "format": "json"
+      }
+    },
+    {
+      "type": "slack",
+      "channel": "",
+      "toolId": "",
+      "event": "finished",
+      "enabled": false,
+      "logEnabled": false
+    },
+    {
+      "type": "jira",
+      "event": "all",
+      "jiraBoard": "",
+      "jiraToolId": "",
+      "jiraProject": "",
+      "jiraPriority": "",
+      "jiraSprint": "",
+      "jiraParentTicket": "",
+      "jiraPrimaryAssignee": "",
+      "jiraSecondaryAssignees": [],
+      "jiraOpenStep": "",
+      "jiraClosureStep": "",
+      "enabled": false
+    },
+    {
+      "type": "teams",
+      "event": "all",
+      "toolId": "",
+      "enabled": false,
+      "logEnabled": false,
+      "teamsType": "webhook",
+      "teamsId": "",
+      "teamsName": "",
+      "channelId": "",
+      "channelName": ""
+    },
+    {
+      "type": "servicenow",
+      "event": "all",
+      "toolId": "",
+      "serviceNowUserId": "",
+      "serviceNowGroupId": "",
+      "enabled": false
+    },
+    {
+      "type": "gchat",
+      "event": "all",
+      "toolId": "",
+      "enabled": false,
+      "logEnabled": false
+    },
+    {
+      "type": "azure",
+      "event": "all",
+      "enabled": false,
+      "logEnabled": false,
+      "azureBoardId": "",
+      "azureBoardName": "",
+      "azureToolId": "",
+      "azureTeamId": "",
+      "azureTeamName": "",
+      "azureProjectName": "",
+      "azureProjectId": "",
+      "azurePriority": "",
+      "azureSprint": "",
+      "azureSprintId": "",
+      "azureWorkType": "",
+      "azureParentTicket": "",
+      "azurePrimaryAssignee": ""
+    },
+    {
+      "type": "github",
+      "event": "all",
+      "enabled": false,
+      "logEnabled": false,
+      "toolId": "",
+      "githubLabels": [],
+      "assignees": [],
+      "githubRepositoryId": "",
+      "githubIssueType": "",
+      "githubParentIssueId": ""
+    },
+    {
+      "type": "settings",
+      "sendStepLevelNotification": false,
+      "sendReportsWithNotifications": false,
+      "sendRuntimeExceededNotification": false,
+      "logEnabled": false,
+      "reportFormats": [
+        "pdf",
+        "excel"
+      ]
+    }
+  ],
+  "notificationRules": [],
+  "createdAt": "2026-06-17T07:08:19.457Z",
+  "updatedAt": "2026-06-18T06:53:55.163Z",
+  "__v": 0,
+  "owner_name": "Yogesh.Kasare Proton",
+  "lock": {
+    "status": "locked",
+    "updatedBy": "dammu.srinivasulu05@protonmail.com",
+    "updatedById": "67d2c74574c80a29acf6acc0",
+    "updatedAt": "2026-06-18T06:47:09.534Z"
+  },
+  "parameters": [
+    {
+      "name": "opsera-111",
+      "value": "hihello",
+      "scope": "pipeline",
+      "inputType": "text",
+      "vaultEnabled": false,
+      "vaultKey": "",
+      "selectField": false,
+      "lookupListId": "",
+      "tags": [],
+      "account": "org109-acc",
+      "active": true,
+      "__v": 0
+    }
+  ]
+}
