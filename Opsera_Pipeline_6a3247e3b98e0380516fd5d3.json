@@ -1,7 +1,7 @@
 {
   "_id": "6a3247e3b98e0380516fd5d3",
   "name": "Blank Pipeline Template 78",
-  "description": "yesa",
+  "description": "y",
   "owner": "68c10683f83c8f3eb99e9c8f",
   "roles": [
     {
@@ -11,7 +11,7 @@
       "group": ""
     },
     {
-      "role": "administrator",
+      "role": "manager",
       "user": "dammu.srinivasulu05@protonmail.com",
       "site_role": "",
       "group": ""
@@ -23,7 +23,7 @@
       "group": ""
     },
     {
-      "role": "guest",
+      "role": "power_user",
       "user": "vasu811@protonmail.com",
       "site_role": "",
       "group": ""
@@ -61,9 +61,12 @@
       "gitUrl": "https://github.com/yogeshkasare/sfdc-git",
       "sshUrl": "git@github.com:yogeshkasare/sfdc-git.git",
       "branch": "6a1e9a3b4ad939a4278a53e8_1",
-      "secondary_branches": [],
+      "secondary_branches": [
+        "6a1e991006799a251ca24c79_2",
+        "6a1e991006799a251ca24c79_3"
+      ],
       "key": "",
-      "trigger_active": true,
+      "trigger_active": false,
       "isPushEvent": false,
       "isPrEvent": false,
       "isMonitored": false,
@@ -109,7 +112,7 @@
             "gitToolId": "",
             "sfdcToolId": "69412006757346bfffd1b90d",
             "sfdcDestToolId": "",
-            "service": "bitbucket",
+            "service": "github",
             "workspace": "",
             "repository": "",
             "projectId": "yogeshkasare/sfdc-git",
@@ -119,7 +122,7 @@
             "modifiedFilesOrigin": "git",
             "sfdcUnitTestType": "",
             "filesFromSfdc": true,
-            "isOrgToOrg": false,
+            "isOrgToOrg": true,
             "isNewBranch": false,
             "isManualArtifactBranch": false,
             "isManualRollBackBranch": false,
@@ -583,14 +586,14 @@
           "sfdc-type"
         ],
         "notification": [],
+        "tags": [],
         "active": true,
         "dependencies": [],
-        "_id": "6a3395d77341af4f44103ab1",
-        "tags": [],
-        "updatedAt": "2026-06-18T06:53:11.784Z"
+        "updatedAt": "2026-06-18T06:53:11.784Z",
+        "_id": "6a3395d77341af4f44103ab1"
       }
     ],
-    "run_count": 5,
+    "run_count": 6,
     "canvas_layout": {
       "manual_layout_active": true,
       "orientations": {
@@ -628,8 +631,8 @@
             "y": 1080
           },
           "end": {
-            "x": -50,
-            "y": 300
+            "x": -550,
+            "y": 472.22222222222223
           }
         },
         "horizontal": {
@@ -641,21 +644,21 @@
             "x": -260,
             "y": 240
           },
-          "6a3356277341af4f440f2ab1": {
-            "x": 10,
-            "y": -160
+          "6a3395d77341af4f44103ab1": {
+            "x": -157.77777777777783,
+            "y": -32.22222222222223
           },
           "6a3248a929390856d0735332": {
             "x": 10,
             "y": 240
           },
-          "6a3364385cede973a4745ee5": {
-            "x": 10,
-            "y": 640
-          },
           "6a3248ce29390856d07354cb": {
             "x": 280,
             "y": 240
+          },
+          "6a3364385cede973a4745ee5": {
+            "x": 10,
+            "y": 640
           },
           "6a3356a3b98e03805174d645": {
             "x": 550,
@@ -671,7 +674,7 @@
           }
         }
       },
-      "updated_at": "2026-06-18T06:53:34.365Z"
+      "updated_at": "2026-06-18T07:03:09.918Z"
     }
   },
   "active": true,
@@ -789,19 +792,19 @@
   ],
   "notificationRules": [],
   "createdAt": "2026-06-17T07:08:19.457Z",
-  "updatedAt": "2026-06-18T06:53:55.163Z",
+  "updatedAt": "2026-06-18T07:10:09.166Z",
   "__v": 0,
   "owner_name": "Yogesh.Kasare Proton",
   "lock": {
     "status": "locked",
     "updatedBy": "dammu.srinivasulu05@protonmail.com",
     "updatedById": "67d2c74574c80a29acf6acc0",
-    "updatedAt": "2026-06-18T06:47:09.534Z"
+    "updatedAt": "2026-06-18T07:07:40.073Z"
   },
   "parameters": [
     {
       "name": "opsera-111",
-      "value": "hihello",
+      "value": "hihellohello",
       "scope": "pipeline",
       "inputType": "text",
       "vaultEnabled": false,
