@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Gives users access to create, edit, and delete prompts and walkthroughs in supported Experience Cloud sites.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Manage In-App Guidance for Partners</label>
+    <license>EnablementResourcesPsl</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageInAppGuidanceForSites</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewAllProfiles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewInAppGuidanceForSites</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewRoles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewSetup</name>
+    </userPermissions>
+</PermissionSet>
