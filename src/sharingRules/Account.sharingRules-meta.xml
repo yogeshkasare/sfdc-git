@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <!--
     <sharingCriteriaRules>
         <fullName>Share_net_Leads</fullName>
         <accessLevel>Read</accessLevel>
@@ -18,5 +19,6 @@
             <value>100</value>
         </criteriaItems>
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
-    </sharingCriteriaRules>
+    </sharingCriteriaRules> 
+       -->
 </SharingRules>
