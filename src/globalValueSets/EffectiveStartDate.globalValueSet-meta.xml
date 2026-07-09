@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Immediate</fullName>
+        <default>false</default>
+        <label>Immediate</label>
+    </customValue>
+    <customValue>
+        <fullName>30 Days</fullName>
+        <default>false</default>
+        <label>30 Days</label>
+    </customValue>
+    <customValue>
+        <fullName>60 Days</fullName>
+        <default>false</default>
+        <label>60 Days</label>
+    </customValue>
+    <customValue>
+        <fullName>90 Days</fullName>
+        <default>false</default>
+        <label>90 Days</label>
+    </customValue>
+    <masterLabel>Effective Start Date</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
