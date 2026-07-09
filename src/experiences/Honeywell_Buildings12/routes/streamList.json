@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "d3e06881-e947-4af6-bc83-d8cedbc61563",
+  "appPageId" : "5f512258-5efb-477e-badc-fac23d67768c",
+  "configurationTags" : [ ],
+  "devName" : "Stream_List",
+  "id" : "647de8ac-1553-4d57-bb73-5ce0d74a1e26",
+  "label" : "Stream List",
+  "routeType" : "list-0Fq",
+  "type" : "route",
+  "urlPrefix" : "streams"
+}

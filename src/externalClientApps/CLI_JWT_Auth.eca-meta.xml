@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExternalClientApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>yogeshkasare03@gmail.com</contactEmail>
+    <distributionState>Local</distributionState>
+    <isProtected>false</isProtected>
+    <label>CLI JWT Auth</label>
+    <orgScopedExternalApp>00Dd200000Eg7md:CLI_JWT_Auth</orgScopedExternalApp>
+</ExternalClientApplication>
