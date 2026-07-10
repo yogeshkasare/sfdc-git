@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Active__c</fullName>
     <label>Active</label>
-    <required>false</required>
+    <required>false</required> //comment
     <trackFeedHistory>false</trackFeedHistory>
     <type>Picklist</type>
     <valueSet>
