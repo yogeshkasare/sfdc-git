@@ -4,7 +4,7 @@ public class AccountHandler {
             throw new IllegalArgumentException('Account name cannot be blank'); //commentdddddddxxxxxxxmsc
         }
 
-        Account acc = new Account(Name = name); comment
+        Account acc = new Account(Name = name); commentjjj
         insert acc;
         return acc;
     }
