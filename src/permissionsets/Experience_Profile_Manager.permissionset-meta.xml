@@ -3,7 +3,7 @@
     <hasActivationRequired>false</hasActivationRequired>
     <label>Experience Profile Manager</label>
     <license>Salesforce</license>
-    <userPermissions>
+    <userPermissions> //comment 
         <enabled>true</enabled>
         <name>AccessCMC</name>
     </userPermissions>
