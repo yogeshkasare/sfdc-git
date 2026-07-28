@@ -27,6 +27,7 @@ K+WXEV8SY+k9SnWsABNLXedzYrvnCmp08Hcd</certificate>
     <isCodeCredFlowEnabled>false</isCodeCredFlowEnabled>
     <isCodeCredPostOnly>false</isCodeCredPostOnly>
     <isConsumerSecretOptional>false</isConsumerSecretOptional>
+    <isDPopEnabled>false</isDPopEnabled>
     <isDeviceFlowEnabled>false</isDeviceFlowEnabled>
     <isEnforceRefreshTokenTTL>false</isEnforceRefreshTokenTTL>
     <isIntrospectAllTokens>false</isIntrospectAllTokens>

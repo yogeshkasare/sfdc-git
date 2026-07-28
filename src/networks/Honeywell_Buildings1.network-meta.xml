@@ -46,6 +46,7 @@
         <selfRegProfilePageOverrideSetting>Designer</selfRegProfilePageOverrideSetting>
     </networkPageOverrides>
     <picassoSite>Honeywell_Buildings12</picassoSite>
+    <secondaryEmailSenderEnabled>false</secondaryEmailSenderEnabled>
     <selfRegistration>false</selfRegistration>
     <sendWelcomeEmail>true</sendWelcomeEmail>
     <site>Honeywell_Buildings11</site>
