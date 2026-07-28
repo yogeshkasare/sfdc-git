@@ -1,0 +1,8 @@
+?xml version="1.0" encoding="UTF-8"?>
+<WorkflowFlowAction xmlns="soap.sforce.com/2006/04/metadata">
+    <fullName>LaunchEscalationFlow</fullName>
+    <description>Invokes the Escalation Flow when a case is escalated.</description>
+    <flow>Escalation_Flow</flow>
+    <label>Run Escalation Flow</label>
+    <protected>false</protected>
+</WorkflowFlowAction>
