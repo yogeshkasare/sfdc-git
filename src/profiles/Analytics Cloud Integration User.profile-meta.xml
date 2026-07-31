@@ -4,7 +4,7 @@
     <userLicense>Analytics Cloud Integration User</userLicense>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ActivitiesAccess</name>
+        <name>ActivitiesAccess</name> //comment//
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
