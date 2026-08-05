@@ -3,7 +3,7 @@ public class OpportunityHelper {
         Opportunity opp = new Opportunity(
             Name = name,
             StageName = 'Prospecting',
-            CloseDate = Date.today().addDays(30),
+            CloseDate = Date.today().addDays(30), //comment//
             AccountId = accountId
         );
         insert opp;
