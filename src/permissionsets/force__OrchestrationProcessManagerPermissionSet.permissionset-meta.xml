@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Manage orchestration process-related information in the Automation app.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Orchestration Process Manager</label>
+    <license>Salesforce</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewOrchestrationsInAutomApp</name>
+    </userPermissions>
+</PermissionSet>
