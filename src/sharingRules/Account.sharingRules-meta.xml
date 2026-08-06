@@ -1,22 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
-    <sharingCriteriaRules>
-        <fullName>Share_net_Leads</fullName>
-        <accessLevel>Read</accessLevel>
-        <accountSettings>
-            <caseAccessLevel>None</caseAccessLevel>
-            <contactAccessLevel>Read</contactAccessLevel>
-            <opportunityAccessLevel>None</opportunityAccessLevel>
-        </accountSettings>
-        <label>Share net Leads</label>
-        <sharedTo>
-            <role>SVPSalesMarketing</role>
-        </sharedTo>
-        <criteriaItems>
-            <field>BillingLatitude</field>
-            <operation>equals</operation>
-            <value>100</value>
-        </criteriaItems>
-        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
-    </sharingCriteriaRules>
+    
 </SharingRules>
