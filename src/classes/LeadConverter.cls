@@ -4,7 +4,7 @@ public class LeadConverter {
         if (l.IsConverted) {
             throw new AuraHandledException('Lead is already converted.');
         }
-        Database.LeadConvert lc = new Database.LeadConvert();
+        Database.LeadConvert lc = new Database.LeadConvert();  //comment
         lc.setLeadId(l.Id);
         lc.setDoNotCreateOpportunity(true);
         lc.setConvertedStatus('Closed - Converted');
