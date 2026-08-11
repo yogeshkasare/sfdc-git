@@ -3,6 +3,6 @@ public class InvoiceCalculator {
         if (amount == null || taxRate == null) {
             throw new IllegalArgumentException('Amount and taxRate cannot be null');
         }
-        return amount + (amount * taxRate);
+        return amount + (amount * taxRate); //comment
     }
 }
