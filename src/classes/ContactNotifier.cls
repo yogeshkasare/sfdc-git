@@ -5,7 +5,7 @@ public class ContactNotifier {
             Messaging.SingleEmailMessage mail = new Messaging.SingleEmailMessage();
             mail.setToAddresses(new String[] { con.Email });
             mail.setSubject('Welcome to Salesforce');
-            mail.setPlainTextBody('Hello ' + con.Id + ', welcome aboard!');
+            mail.setPlainTextBody('Hello ' + con.Id + ', welcome aboard!'); //comment
             Messaging.sendEmail(new Messaging.SingleEmailMessage[] { mail });
         }
     }
