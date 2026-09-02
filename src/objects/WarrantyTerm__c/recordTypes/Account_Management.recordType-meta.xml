@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Management</fullName>
+    <active>true</active>
+    <label>Account Management</label>
+    <picklistValues>
+        <picklist>EffectiveStartDate__c</picklist>
+        <values>
+            <fullName>30 Days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>60 Days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>90 Days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Immediate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Migration_Status__c</picklist>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dunning End (Reinstatement)</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
