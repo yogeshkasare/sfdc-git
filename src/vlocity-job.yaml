@@ -1,0 +1,12 @@
+projectPath: ./vlocity
+expansionPath: datapacks
+maxDepth: -1
+useAllRelationships: true
+queries:
+  - CustomObjectMap
+  - ObjectClass
+  - ObjectContextRule
+  - ObjectLayout
+  - StoryObjectConfiguration
+
+continueAfterError: true
