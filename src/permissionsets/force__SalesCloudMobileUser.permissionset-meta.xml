@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Use an experience that’s tailored for sellers on mobile. Easily view and update key information, contact with a swipe, and keep deals on track.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Seller-Focused Sales Mobile Experience</label>
+    <license>Salesforce</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EnhancedSalesMobileExp</name>
+    </userPermissions>
+</PermissionSet>

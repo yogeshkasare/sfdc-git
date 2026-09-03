@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows access to the Command Center app and its resources.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Command Center</label>
+    <license>CommandCenterPsl</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AccessCommandCenter</name>
+    </userPermissions>
+</PermissionSet>
