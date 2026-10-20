@@ -5,7 +5,11 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
-    <custom>true</custom>
+   <recordTypeVisibilities>
+       <default>true</default>
+       <recordType>Account.Ortho</recordType>
+       <visible>true</visible>
+   <custom>true</custom>
     <userLicense>Analytics Cloud Integration User</userLicense>
     <userPermissions>
         <enabled>true</enabled>
