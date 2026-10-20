@@ -14,7 +14,7 @@
     <label>Ortho</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
-    <tabs>standard-Account</tabs>
+    <tabs>standard-Account</tabs> //comment//
     <tabs>standard-Contact</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Ortho_UtilityBar</utilityBar>
