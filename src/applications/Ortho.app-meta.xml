@@ -8,13 +8,13 @@
     <formFactors>Small</formFactors>
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
-    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled> //commit//
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <label>Ortho</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
-    <tabs>standard-Account</tabs>
+    <tabs>standard-Account</tabs> //comment//
     <tabs>standard-Contact</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Ortho_UtilityBar</utilityBar>
