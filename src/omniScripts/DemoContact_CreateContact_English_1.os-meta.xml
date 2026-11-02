@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniScript xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isActive>false</isActive>
+    <isIntegrationProcedure>false</isIntegrationProcedure>
+    <isWebCompEnabled>true</isWebCompEnabled>
+    <language>English</language>
+    <name>Demo Contact</name>
+    <subType>CreateContact</subType>
+    <type>DemoContact</type>
+    <versionNumber>1</versionNumber>
+</OmniScript>
